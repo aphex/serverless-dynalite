@@ -2,18 +2,7 @@
   "name": "serverless-dynalite",
   "version": "1.4.0",
   "description": "Serverless plugin to run Dynalite locally to handle DynamoDB development. Can watch for table config changes.",
-  "main": "distribution/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel index.js --out-dir distribution"
-  },
-  "babel": {
-    "presets": [
-      "es2015",
-      "stage-2"
-    ]
-  },
-  "prepublishOnly": "npm run build",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sdd/serverless-dynalite.git"
